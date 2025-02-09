@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* reCaptchaのカラーパレットを参考に */
+}
+
+.container {
+  text-align: center;
+}
+
+.captcha-box {
+  margin-bottom: 20px;
+}
+
+#captchaImage {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #ccc;
+}
+
+#captchaInput {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#continueButton {
+  padding: 5px 10px;
+  background-color: #4CAF50; /* reCaptchaのカラーパレットを参考に */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#messageArea {
+  margin-top: 10px;
+  font-size: 12px;
+}
